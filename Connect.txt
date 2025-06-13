@@ -1,0 +1,19 @@
+/* Open Terminal */
+/* Install FastAPI and Uvicorn */
+
+pip install fastapi uvicorn
+
+/* Run the Server */
+
+uvicorn main:app --reload
+
+/* Check if Server Started (INF messages) */
+
+/* You will see */
+
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [xxxx] using statreload
+INFO:     Started server process [xxxx]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+
