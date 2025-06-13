@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NeoLibrary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <h1 class="logo">NeoLibrary</h1>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <h2>Welcome to NeoLibrary</h2>
+    <p>Your gateway to thousands of free books online.</p>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h2>About Us</h2>
+    <p>NeoLibrary is an online community library that connects readers to free digital books worldwide.</p>
+  </section>
+
+  <!-- Books -->
+  <section class="books" id="books">
+    <h2>Search Books</h2>
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search for a book...">
+      <button id="search-btn">Search</button>
+    </div>
+    <div class="popup" id="search-popup"></div>
+  </section>
+
+  <!-- Borrow -->
+  <section class="books">
+    <h2>Borrow a Book</h2>
+    <form id="borrow-form">
+      <input type="text" id="member-id" placeholder="Member ID" required>
+      <input type="text" id="book-id" placeholder="Book ID" required>
+      <button type="submit">Borrow</button>
+    </form>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@neolibrary.org<br>Phone: +91-9876543210</p>
+  </section>
+
+  <!-- Feedback -->
+  <section class="feedback">
+    <h2>Feedback</h2>
+    <p>We'd love to hear your thoughts!</p>
+    <form class="feedback-form" id="feedback-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="4" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 NeoLibrary. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
